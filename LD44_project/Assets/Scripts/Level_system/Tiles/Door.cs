@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Agent : _Entity
+public class Door : MonoBehaviour
 {
     
 }
