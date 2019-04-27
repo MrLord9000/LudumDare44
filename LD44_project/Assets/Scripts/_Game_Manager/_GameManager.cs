@@ -23,4 +23,6 @@ public class _GameManager : MonoBehaviour
         // Prevent the game manager from being destroyed while loading scenes
         DontDestroyOnLoad(gameObject);
     }
+
+
 }

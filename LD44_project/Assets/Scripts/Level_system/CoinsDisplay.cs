@@ -11,10 +11,6 @@ public class CoinsDisplay : MonoBehaviour
     private TextMeshProUGUI text;
     private SpriteRenderer sprite;
 
-    void Set(uint amount)
-    {
-    }
-
     void Start()
     {
         floor = GetComponentInParent<Floor>();
