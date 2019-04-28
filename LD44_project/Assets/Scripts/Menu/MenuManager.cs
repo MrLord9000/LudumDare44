@@ -6,7 +6,7 @@ public class MenuManager : MonoBehaviour
 {
     public void NewGame()
     {
-         UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
     }
     public void ExitGame()
     {
@@ -25,4 +25,5 @@ public class MenuManager : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");//level3
     }
+    
 }
